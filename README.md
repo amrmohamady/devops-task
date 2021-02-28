@@ -47,7 +47,10 @@ Navigate to the "Cluster" page by clicking on "Cluster" in the left navigation b
 12 - RUN kubectl get nodes -o wide
 13- install Helm
 https://helm.sh/docs/intro/install/
+
 Then RUN
+
 kubectl apply -f tiller-user.yaml
+
 helm init --service-account tiller
 
